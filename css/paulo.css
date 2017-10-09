@@ -1,0 +1,16 @@
+body{
+  background-color: rgba(250,250,250,1);
+  border: 0 !important;
+  margin: 0 !important;
+  font-family: 'Nunito', sans-serif;
+}
+#nav_bar{
+  color: rgba(255, 255, 255, 1);
+  position: fixed;
+  background-color: rgba(238, 110, 115, 1);
+  height: 100vh !important;
+  margin: 0 !important;
+}
+#tit_nav{
+  text-align: center;
+}
