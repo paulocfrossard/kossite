@@ -36,14 +36,16 @@ body{
     border-radius: 0.5vh;
     list-style: none;
     width: 100%;
-    transition-duration: 0.5s;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.2s;
 }
 #menu ul li:hover{
-    text-align: center;
     color: rgba(238, 110, 115, 1);
     background-color: rgba(255,255,255,0.75);
     list-style: none;
     font-size: 16pt
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.2s;
 }
 #menu ul li a{
     color: rgb(255, 255, 255);
@@ -51,7 +53,7 @@ body{
     text-align: center;
     list-style: none;
     font-size: 16pt;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 #menu ul li a:hover{
     color: rgba(238, 110, 115, 1);
