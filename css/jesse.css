@@ -25,3 +25,9 @@
     color: black;
     border: 2px solid rgb(238, 110, 115);
 }
+
+footer{
+  width: 100%;
+  position: relative;
+  
+}
