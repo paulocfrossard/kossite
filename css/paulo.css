@@ -30,7 +30,7 @@ body{
     margin-right: 0;
     margin-bottom: 5vh;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 #menu ul li{
     border-radius: 0.5vh;
@@ -50,14 +50,14 @@ body{
     letter-spacing: .2rem;
     text-align: center;
     list-style: none;
-    font-size: 16pt;    
+    font-size: 16pt;
     transition-duration: 0.5s;
 }
 #menu ul li a:hover{
     color: rgba(238, 110, 115, 1);
 }
 #tit_nav{
-    text-align: center;
+    text-align: left;
 }
 /* Conteudo */
 .conteudo{
