@@ -63,3 +63,7 @@ body{
 /* Conteudo */
 .conteudo{
 }
+.logo{
+  width: 100%;
+  height: auto;
+}
