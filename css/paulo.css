@@ -8,7 +8,7 @@ body{
 /* Formando menu */
 #nav_bar{
     color: rgba(255, 255, 255, 1);
-    position: fixed;
+    position: relative;
     background-color: rgba(238, 110, 115, 1);
     height: 100vh;
     margin: 0 !important;
@@ -17,10 +17,9 @@ body{
 @media (max-width: 767px) {
   #nav_bar{
     color: rgba(255, 255, 255, 1);
-    position: relative;
+
     background-color: rgba(238, 110, 115, 1);
-    width: 100%;
-    height: auto;
+
     margin: 0 !important;
   }
 }
