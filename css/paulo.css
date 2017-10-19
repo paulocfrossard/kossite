@@ -8,7 +8,7 @@ body{
 /* Formando menu */
 #nav_bar{
     color: rgba(255, 255, 255, 1);
-    position: relative;
+    position: fixed;
     background-color: rgba(238, 110, 115, 1);
     height: 90vh;
     margin: 0 !important;
@@ -19,11 +19,7 @@ body{
     color: rgba(255, 255, 255, 1);
     height: auto;
     background-color: rgba(238, 110, 115, 1);
-<<<<<<< refs/remotes/origin/master
-
-=======
     position: relative;
->>>>>>> 19/10 20:27
     margin: 0 !important;
   }
 }
@@ -71,8 +67,6 @@ body{
   width: 100%;
   height: auto;
 }
-<<<<<<< refs/remotes/origin/master
-=======
 .tit_pub{
   color: rgba(0,0,0, 0.75);
   font-size: 2.5em ;
@@ -85,4 +79,3 @@ body{
   margin-top: 2%;
   height: auto;
 }
->>>>>>> 19/10 20:27
