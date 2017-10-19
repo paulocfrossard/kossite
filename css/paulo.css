@@ -1,6 +1,6 @@
 /* Diretivas gerais */
 body{
-    background-color: rgba(245,245,245,1);
+    background-color: rgba(230,230,230,1);
     border: 0 !important;
     margin: 0 !important;
     font-family: 'Nunito', sans-serif;
@@ -19,7 +19,11 @@ body{
     color: rgba(255, 255, 255, 1);
     height: auto;
     background-color: rgba(238, 110, 115, 1);
+<<<<<<< refs/remotes/origin/master
 
+=======
+    position: relative;
+>>>>>>> 19/10 20:27
     margin: 0 !important;
   }
 }
@@ -67,3 +71,18 @@ body{
   width: 100%;
   height: auto;
 }
+<<<<<<< refs/remotes/origin/master
+=======
+.tit_pub{
+  color: rgba(0,0,0, 0.75);
+  font-size: 2.5em ;
+  text-align: center;
+}
+.bloco{
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5%;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 2%;
+  height: auto;
+}
+>>>>>>> 19/10 20:27

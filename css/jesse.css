@@ -32,12 +32,28 @@
   margin: 0;
 }
 .footer{
+<<<<<<< refs/remotes/origin/master
   position: relative;
+=======
+  position: fixed;
+>>>>>>> 19/10 20:27
   bottom: 0%;
   color: white;
   background-color: rgb(238, 110, 115);
   height: 10vh;
+<<<<<<< refs/remotes/origin/master
 
+=======
+}
+@media (max-width: 767px) {
+  .footer{
+    position: relative;
+    bottom: 0%;
+    color: white;
+    background-color: rgb(238, 110, 115);
+    height: 10vh;
+  }
+>>>>>>> 19/10 20:27
 }
 .footer h6{
   margin-left: 10%;
