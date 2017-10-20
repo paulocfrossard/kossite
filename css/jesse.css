@@ -36,7 +36,7 @@
   bottom: 0%;
   color: white;
   background-color: rgb(238, 110, 115);
-  height: 10vh;
+
 }
 @media (max-width: 767px) {
   .footer{
@@ -44,10 +44,15 @@
     bottom: 0%;
     color: white;
     background-color: rgb(238, 110, 115);
-    height: 10vh;
+
   }
 }
 .footer h6{
   margin-left: 10%;
+  height: 100%;
 
+
+}
+a:link {
+    text-decoration: none;
 }
