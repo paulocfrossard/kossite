@@ -10,7 +10,7 @@ body{
     color: rgba(255, 255, 255, 1);
     position: fixed;
     background-color: rgba(238, 110, 115, 1);
-    height: 90vh;
+    height: 100vh;
     margin: 0 !important;
 }
 /* Menu para telas pequenas, posicionado no topo*/
