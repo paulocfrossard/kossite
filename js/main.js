@@ -1,5 +1,5 @@
 
-var script = true//confirm("Permitir scripts?\nUsado em: google analytics, efeitos de pagina, etc.");
+var script = confirm("Permitir scripts?\nUsado em: google analytics, efeitos de pagina, etc.");
 if (script == true) {
   (function (i, s, o, g, r, a, m){
     i['GoogleAnalyticsObject'] = r;
