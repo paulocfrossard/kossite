@@ -75,7 +75,8 @@ a:link {
 
 }
 .capturas img:hover{
-  opacity: 0.9;
+    border: 3px solid rgb(238, 110, 115);
+    opacity: 0.9;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
