@@ -66,17 +66,19 @@ a:link {
 
 .capturas{
   text-align: center;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 .capturas img{
   max-width: 20vw;
   width: auto;
   height: auto;
+  max-height: 618px;
 
 }
 .capturas img:hover{
-    border: 3px solid rgb(238, 110, 115);
-    opacity: 0.9;
+  border: 3px solid rgb(238, 110, 115);
+  margin-bottom: -3px;
+  opacity: 0.9;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
