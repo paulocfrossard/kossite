@@ -1,4 +1,9 @@
-/* Diretivas gerais */
+#one{
+  visibility: hidden;
+}
+#one:active{
+  visibility: visible;
+}
 body{
     background-color: rgba(230,230,230,1);
     border: 0 !important;
