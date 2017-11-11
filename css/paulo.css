@@ -51,15 +51,14 @@ body{
     -webkit-transition-property: all;
     -webkit-transition-duration: 0.2s;
 }
-#menu ul li a{
+#menu ul a{
     color: rgb(255, 255, 255);
     letter-spacing: .2rem;
-    text-align: center;
     list-style: none;
     font-size: 16pt;
-    transition-duration: 0.2s;
+    
 }
-#menu ul li a:hover{
+#menu ul a:hover{
     color: rgba(238, 110, 115, 1);
 }
 #tit_nav{
