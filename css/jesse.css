@@ -1,5 +1,6 @@
 .button{
-    background-color: rgb(238, 110, 115);
+    background-color: #CC444B;
+    /*background-color: rgb(238, 110, 115);*/
     border: none;
     color: white;
     padding: 16px 32px;
@@ -17,7 +18,8 @@
 }
 
 .button_01 {
-    background-color: rgb(238, 110, 115);
+    background-color: #CC444B;
+    /*background-color: rgb(238, 110, 115);*/
     color: white;
     border: 2px solid rgb(238, 110, 115);
 }
@@ -34,15 +36,15 @@
   position: fixed;
   bottom: 0%;
   color: white;
-  background-color: rgb(238, 110, 115);
+  background-color: #CC444B;
+  /*background-color: rgb(238, 110, 115);*/
 
 }
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   .footer{
     position: relative;
     bottom: 0%;
     color: white;
-    background-color: rgb(238, 110, 115);
 
   }
 }
@@ -83,6 +85,9 @@ a:link {
   transition-duration: 0.2s;
 }
 
+
+
+
 /* ------------------------------Carousel-----------------------------*/
 
 .d-block {
@@ -94,7 +99,7 @@ a:link {
   height: 42.3vw;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767.5px){
   .img-fluid {
     width: 100%;
     height: 56.5vw;

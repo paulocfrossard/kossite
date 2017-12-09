@@ -14,16 +14,16 @@ body{
 #nav_bar{
     color: rgba(255, 255, 255, 1);
     position: fixed;
-    background-color: rgba(238, 110, 115, 1);
+    background-color: #CC444B;
+    /*background-color: rgba(238, 110, 115, 1);*/
     height: 100vh;
     margin: 0 !important;
 }
 /* Menu para telas pequenas, posicionado no topo*/
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   #nav_bar{
     color: rgba(255, 255, 255, 1);
     height: auto;
-    background-color: rgba(238, 110, 115, 1);
     position: relative;
     margin: 0 !important;
   }
@@ -56,7 +56,7 @@ body{
     letter-spacing: .2rem;
     list-style: none;
     font-size: 16pt;
-    
+
 }
 #menu ul a:hover{
     color: rgba(238, 110, 115, 1);
