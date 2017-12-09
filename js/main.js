@@ -1,7 +1,4 @@
-
-//var script = confirm("Permitir scripts?\nUsado em: google analytics, efeitos de pagina, etc.");
-if (script == true) {
-  (function (i, s, o, g, r, a, m){
+(function (i, s, o, g, r, a, m){
     i['GoogleAnalyticsObject'] = r;
     i[r] = i[r] || function() {
       (i[r].q = i[r].q || []).push(arguments)
@@ -16,7 +13,3 @@ if (script == true) {
 
   ga('create', 'UA-100486889-1', 'auto');
   ga('send', 'pageview');
-}
-if (script == false) {
-  console.log ("Adeus amiguinhos :(");
-}
