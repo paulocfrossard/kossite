@@ -3,7 +3,6 @@
     /*background-color: rgb(238, 110, 115);*/
     border: none;
     color: white;
-    padding: 16px 32px;
     text-align: center;
     height: 50px;
     width: 150px;
@@ -44,6 +43,7 @@
 @media (max-width: 767.5px) {
   .footer{
     position: relative;
+    margin-left: 0%;
     bottom: 0%;
     color: white;
 
@@ -173,6 +173,13 @@ a.box:active {
   margin-right: 1rem;
 }
 
+@media (max-width: 600px) {
+  .media-left{
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
 .media-right {
   margin-left: 1rem;
 }
@@ -187,6 +194,7 @@ a.box:active {
       flex-shrink: 1;
   text-align: left;
 }
+
 .image {
   display: block;
   position: relative;
@@ -197,6 +205,7 @@ a.box:active {
   height: auto;
   width: 100%;
 }
+
 
 .image.is-square img, .image.is-1by1 img, .image.is-4by3 img, .image.is-3by2 img, .image.is-16by9 img, .image.is-2by1 img {
   bottom: 0;
@@ -263,9 +272,7 @@ a.box:active {
   width: 128px;
 }
 
-.icons_social{
-  margin-left: 35%;
-}
+
 
 
 /* ------------------------------Carousel-----------------------------*/
