@@ -88,6 +88,25 @@ a:link {
 }
 
 
+
+.social{
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.contact{
+  height: 64px;
+  width: 64px;
+  margin: 10px;
+}
+
+.contato-logo{
+  max-height: 30vh;
+  width: auto;
+}
+
+
+
 /*------------------------equipe--------------------------------------*/
 .box {
   background-color: white;
