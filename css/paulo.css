@@ -22,10 +22,8 @@ body{
 /* Menu para telas pequenas, posicionado no topo*/
 @media (max-width: 767.5px) {
   #nav_bar{
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: relative;
-    margin: 0 !important;
+    position: absolute;
+    visibility: hidden;
   }
 }
 #menu ul{
@@ -62,7 +60,12 @@ body{
     color: rgba(238, 110, 115, 1);
 }
 
-
+@media (max-width: 667.5px) {
+    #menu{
+      position: fixed;
+      visibility: visible;
+    }
+}
 
 #tit_nav{
     text-align: left;
