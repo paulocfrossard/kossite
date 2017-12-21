@@ -13,3 +13,12 @@
 
   ga('create', 'UA-100486889-1', 'auto');
   ga('send', 'pageview');
+
+
+function showMenu() {
+  if (dropmenu.style.display === "none") {
+        dropmenu.style.display = "block";
+    } else {
+        dropmenu.style.display = "none";
+    }
+}

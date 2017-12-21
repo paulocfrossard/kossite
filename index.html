@@ -40,7 +40,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/boots/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/paulo.css" />
-  <link rel="stylesheet" type="text/css" href="css/luigi.css">
+  <link rel="stylesheet" type="text/css" href="css/luigi.css" />
   <link rel="stylesheet" type="text/css" href="css/jesse.css" />
 
   <!-- Scripts -->
@@ -76,15 +76,15 @@
       </div>
 
       <div class="dropdown">
-        <button class="dropbtn"><img alt="Icone menu dropdown" src="img/icon/menu.png"></button>
-        <div class="dropdown-content">
+        <button class="dropbtn" onclick="showMenu()"><img alt="Icone menu dropdown" src="img/icon/menu.png"></button>
+        <div class="dropdown-content" id="dropmenu">
           <ul>
-            <li><a href="#inicio"><div><i class="material-icons">home</i> Inicio</div></a></li>
-            <li><a href="#sobre"><div><i class="material-icons">info_outline</i> Sobre</div></a></li>
-            <li><a href="#docs"><div><i class="material-icons">book</i> Documentação</div></a></li>
-            <li><a href="#equipe"><div><i class="material-icons">account_circle</i> Equipe</div></a></li>
-            <li><a href="#social"><div><i class="material-icons">pin_drop</i> Na mídia</div></a></li>
-            <li><a href="#contato"><div><i class="material-icons">mail_outline</i> Contatos</div></a></li>
+            <li><a href="#inicio" onclick="showMenu()"><div><i class="material-icons">home</i> Inicio</div></a></li>
+            <li><a href="#sobre" onclick="showMenu()"><div><i class="material-icons">info_outline</i> Sobre</div></a></li>
+            <li><a href="#docs" onclick="showMenu()"><div><i class="material-icons">book</i> Documentação</div></a></li>
+            <li><a href="#equipe" onclick="showMenu()"><div><i class="material-icons">account_circle</i> Equipe</div></a></li>
+            <li><a href="#social" onclick="showMenu()"><div><i class="material-icons">pin_drop</i> Na mídia</div></a></li>
+            <li><a href="#contato" onclick="showMenu()"><div><i class="material-icons">mail_outline</i> Contatos</div></a></li>
           </ul>
         </div>
       </div>
@@ -397,6 +397,7 @@
     <h6>© 2017 Uname Corp.</h6>
   </div>
 </div>
+
 </body>
 
 </html>
