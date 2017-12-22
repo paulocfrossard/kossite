@@ -1,3 +1,37 @@
 #sobre{
   text-align: center;
 }
+
+#docs{
+  min-height: 50vh;
+}
+
+.doc-card{
+  min-height: 18vh;
+  background-color: rgb(204, 68, 75);
+  border: solid white 0.5vh;
+}
+.doc-card:hover{
+  background-color: white;
+  border: 0.5vh solid rgb(238, 110, 115);
+}
+.doc-card:hover a{
+  color: black;
+}
+
+.doc-card:last-child{
+  background-color: black;
+}
+
+.doc-card:last-child:hover{
+  background-color: white;
+  border: solid black 0.5vh;
+}
+.doc-card:last-child:hover a{
+  color: black;
+}
+
+.doc-card a{
+  color: white;
+  text-align: center;
+}
