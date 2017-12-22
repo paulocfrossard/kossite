@@ -66,8 +66,8 @@ a:link {
 .cont{
   min-height: 100vh;
   height: auto;
+  padding: 2px;
 }
-
 .capturas{
   text-align: center;
   margin-bottom: 30px;
@@ -130,12 +130,12 @@ a:link {
     right: 20px;
     top: 20px;
     z-index: 4;
-    visibility: hidden;
+    display: none;
 
 }
 @media (max-width: 767.5px){
   .dropdown{
-    visibility: visible;
+    display: block;
   }
 }
 
